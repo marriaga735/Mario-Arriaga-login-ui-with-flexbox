@@ -1,0 +1,70 @@
+
+
+
+.container{
+            background:url(https://eng-dev.stanford.edu/sites/default/files/styles/full_width_banner_tall/public/chalkboard_web.jpg?itok=xqk3ef56) ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+           
+        }
+.card {
+            align-items: center;
+            background-color: rgb(58, 58, 58);
+            box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+            border-radius: 10px;
+            justify-content: center;
+            margin: auto;
+            padding: 50;
+            width: 300px;
+            text-transform: uppercase;
+            
+           
+        }
+
+     h1{
+            color: whitesmoke;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+ input {
+            background-color: white;
+            margin-bottom: 200px ;
+           
+        }
+
+.input-group{
+            justify-content: center;
+        
+        }
+.icon-wrapper{
+        background-color: whitesmoke;
+        height: 28px;
+       
+        }
+.button{
+            border: none;
+            display: block;
+            margin: 10px;
+            text-transform: uppercase; 
+            width: 60%;
+          
+        }
+       
+
+#forgot-password{
+            margin-top: -10px;
+            text-transform: lowercase;
+            
+        } 
+
+
+label {
+            color: whitesmoke;
+            margin-bottom: 10px;   
+            text-transform: lowercase;   
+
+        }
+
