@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
  <html lang="en">
-    <title>LoginUI</title>
+    <title>Rcdecover</title>
     
 <head>
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
  <style>
 
 
-    .col{
+    .container{
         background:url(https://eng-dev.stanford.edu/sites/default/files/styles/full_width_banner_tall/public/chalkboard_web.jpg?itok=xqk3ef56) ;
         background-position: center;
         background-repeat: no-repeat;
@@ -25,36 +25,34 @@
         height: 100vh;
        
     }
-    #wrapper {
+    #card {
         align-items: center;
         background-color: rgb(58, 58, 58);
-        box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+        box-shadow: 3px 13px 21px 22px rgba(0,0,0,0.88);
         border-radius: 10px;
         justify-content: center;
-       margin: auto;
-       
+        margin: auto;
         width: 300px;
-        text-transform: uppercase;
-        
-       
+      
     }
 
     h1{
         color: whitesmoke;
         margin-bottom: 20px;
         text-align: center;
+        font-size: 120%;
     }
 
     input {
         background-color: white;
-        
-       
+        margin-bottom: 10px; 
     }
 
     .input-group{
         justify-content: center;
     
     }
+   
     .icon-wrapper{
     background-color: whitesmoke;
     height: 28px;
@@ -62,13 +60,12 @@
     }
     .button{
         border: none;
-        color: white;
         display: block;
         margin: 10px;
         text-transform: uppercase; 
         width: 60%;
       
-     }
+    }
    
 
     #forgot-password{
@@ -90,37 +87,17 @@
 <body>
     <div class="container=fluid">
         <div class="row">
-            <div class="col d-flex align-items-center justify-content-center">
-                <div id="wrapper">
-<h1> Member Login</h1>
+            <div class="container d-flex align-items-center justify-content-center">
+                <div id="card">
+<h1>Username/Password Recovery</h1>
 
 <div class= "input-group">
     <div class="icon-wrapper d-flex align-items-center">
-        <i class="fa fa-user"></i>
+        <i class="fas fa-envelope-square"></i>
     </div>
-    <input placeholder="Username">
+    <input placeholder="Enter e-mail">
+    <button class="button">Recover</button>
 </div>
-
-<div class= "input-group">
-    <div class="icon-wrapper d-flex align-items-center">
-    <i class="fa fa-lock"></i>
-    </div>
-
-    <input type="password" placeholder="Password" id="input"> 
-      
-    <button class="button">Login</button>
-
-    <a
-     id="forgot-password" href="main.html" target="_blank" >Forgot Username/Password? 
-    </a>
-   
-    <div>
-        <label class="label">
-    <input type="checkbox" name="checkbox" value="text">Remember Me</label>
-
-    </div>
-    <button class="button d-block">Register</button>
-                
-
+     
 </body>
 </html>

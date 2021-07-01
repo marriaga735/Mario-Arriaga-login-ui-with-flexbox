@@ -1,7 +1,7 @@
 
 
 
-.container{
+.container {
             background:url(https://eng-dev.stanford.edu/sites/default/files/styles/full_width_banner_tall/public/chalkboard_web.jpg?itok=xqk3ef56) ;
             background-position: center;
             background-repeat: no-repeat;
@@ -9,42 +9,50 @@
             height: 100vh;
            
         }
-.card {
+
+#card {
             align-items: center;
             background-color: rgb(58, 58, 58);
-            box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+            box-shadow: 3px 13px 21px 22px rgba(0,0,0,0.88);
             border-radius: 10px;
             justify-content: center;
             margin: auto;
-            padding: 50;
-            width: 300px;
             text-transform: uppercase;
-            
+            width: 300px;
            
         }
 
-     h1{
+    h1 {
             color: whitesmoke;
             margin-bottom: 20px;
             text-align: center;
-        }
-
- input {
-            background-color: white;
-            margin-bottom: 200px ;
            
         }
 
-.input-group{
+ .input {
+            background-color: white;
+            margin-bottom: 10px;
+            
+        }
+
+.input-group {
             justify-content: center;
         
         }
-.icon-wrapper{
+
+.icon-wrapper {
         background-color: whitesmoke;
         height: 28px;
        
         }
-.button{
+#button1 {
+            border: none;
+            display: block;
+            text-transform: uppercase; 
+            width: 60%;
+          
+        }
+#button2 {
             border: none;
             display: block;
             margin: 10px;
@@ -52,14 +60,11 @@
             width: 60%;
           
         }
-       
 
-#forgot-password{
-            margin-top: -10px;
+#forgot-password {
             text-transform: lowercase;
             
         } 
-
 
 label {
             color: whitesmoke;
